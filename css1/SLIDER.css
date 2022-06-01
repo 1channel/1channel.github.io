@@ -1,0 +1,41 @@
+ul.accordion{
+	display: flex;
+	justify-content: center;
+}
+ul.accordion li{
+	width: 80px;
+	overflow: hidden;
+	padding: 1px 1px 0;
+	cursor: pointer;
+	display: block;
+	-webkit-box-shadow:1px 3px 15px #7e887e;
+	-moz-box-shadow:1px 3px 15px #7e887e;
+	box-shadow: 1px 3px 15px #7e887e;
+	-webkit-transition:all 1.5s;
+	-moz-transition:all 1.5s;
+	-ms-transition:all 1.5s;
+	-o--transition:all 1.5s;
+	-transition:all 1.5s;
+}
+ul.accordion img{
+	width: 300px;
+	height: 100%;
+	max-width: 100%;
+}
+ul.accordion li:hover{
+	width: 300px;
+	-webkit-box-shadow:1px 3px 15px #36c5fa;
+	-moz-box-shadow:1px 3px 15px #36c5fa;
+	box-shadow: 1px 3px 15px #36c5fa;
+	-webkit-transition:all 1s;
+	-moz-transition:all 1s;
+	-ms-transition:all 1s;
+	-o--transition:all 1s;
+	-transition:all 1s;
+}
+ul.accordion li:nth-child(4){
+	width: 300px;
+}
+ul.accordion:hover li:nth-child(4){
+	width: 80px;
+}
